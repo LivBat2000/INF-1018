@@ -9,7 +9,7 @@ void dump (void *p, int n) {
 }
 
 int main (void) {
-  char i = 97;
-  dump(&i, sizeof(i));
+  char p[] = "$";
+  dump(p, sizeof(p));
   return 0;
 }
